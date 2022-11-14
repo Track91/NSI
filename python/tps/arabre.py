@@ -1,0 +1,23 @@
+# Créé par alowczyk, le 19/09/2022 en Python 3.7
+from turtle import *
+speed(0)
+hauteur = int(input('entrez la hauteur : '))
+rayon = int(input('entrez le rayon : '))
+ecart = int(input('entrez mon ecart : '))
+repetition = int(input('entrez le nombre de repetition : '))
+up()
+left(180)
+forward(400)
+left(180)
+down()
+for i in range(repetition):
+    left(90)
+    forward(hauteur)
+    right(90)
+    circle(rayon)
+    right(90)
+    forward(hauteur)
+    left(90)
+    up()
+    forward(ecart)
+    down()

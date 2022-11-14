@@ -1,0 +1,793 @@
+1663834830042	geckodriver	INFO	Listening on 127.0.0.1:56429
+1663834833096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56430" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXMg7Wr"
+1663834833597	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXMg7Wr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56430/devtools/browser/78b3b271-528f-4ef5-bbb8-64f99d6ab470
+1663834836411	Marionette	INFO	Listening on port 56439
+1663834836810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663834860643	Marionette	INFO	Stopped listening on port 56439
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1663834861118	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+4813	Marionette	INFO	Stopped listening on port 56493
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1663834855329	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663834965527	geckodriver	INFO	Listening on 127.0.0.1:56950
+1663834968598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileKBkICd"
+1663834969009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileKBkICd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56951/devtools/browser/935b14b0-efea-4536-8efe-442d59fdf9f8
+1663834971716	Marionette	INFO	Listening on port 56958
+1663834971905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+1663834981754	Marionette	INFO	Stopped listening on port 56958
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+!!! error running onStopped callback: TypeError: callback is not a function
+1663834982635	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663835037835	geckodriver	INFO	Listening on 127.0.0.1:57226
+1663835040875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileZnBMog"
+1663835041330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileZnBMog\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57227/devtools/browser/5673b960-48c8-4249-9e15-b168752af223
+1663835045684	Marionette	INFO	Listening on port 57235
+1663835045724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663835057324	Marionette	INFO	Stopped listening on port 57235
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1663835057760	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663835069886	geckodriver	INFO	Listening on 127.0.0.1:57379
+1663835072945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileaweyOo"
+1663835073357	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileaweyOo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57380/devtools/browser/de3ec500-0e8d-4bb9-aee9-a4935a62cd24
+1663835075605	Marionette	INFO	Listening on port 57389
+1663835076132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663835141964	Marionette	INFO	Stopped listening on port 57389
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1663835142394	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+ns.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [P1663835141591	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofile69hlmj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57494/devtools/browser/7147d70b-2884-4783-b11b-abb3c97e733c
+1663835144691	Marionette	INFO	Listening on port 57501
+1663835145032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663835146124	Marionette	INFO	Stopped listening on port 57501
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1663835146576	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663835151397	geckodriver	INFO	Listening on 127.0.0.1:57562
+1663835154435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofilepianmY"
+1663835154836	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofilepianmY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57563/devtools/browser/649e138b-e9ab-42d4-b98b-213cc9b6fd16
+1663835157385	Marionette	INFO	Listening on port 57570
+1663835157605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qwant.com/779d514aec7bfcfcf91a_app.chunks.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.qwant.com/779d514aec7bfcfcf91a_app.chunks.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aa1663835211858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exeJavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+1663835214331	Marionette	INFO	Stopped listening on port 57570
+Jaconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileZYlUds\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57942/devtools/browser/d3c444f8-7c6b-4416-ad04-497997097053
+1663835215793	Marionette	INFO	Listening on port 57949
+1663835216048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+1663835219331	Marionette	INFO	Stopped listening on port 57949
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\alowczyk\AppData\Local\Temp\rust_mozprofileZYlUds\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1663835219969	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663835221424	geckodriver	INFO	Listening on 127.0.0.1:58014
+1663835224526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXNGVKn"
+1663835224926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXNGVKn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58015/devtools/browser/0ba4568d-07f9-497c-b246-38bbe06ba958
+1663835227116	Marionette	INFO	Listening on port 58023
+1663835227217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:442:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2142:35
+addAllSources@resource://devtools/server/actors/thread.js:1509:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:239:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:156:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:47:20
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:483:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:425:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2309))
+console.warn: "Resource  of root-node was not found."
+console.error: "Error while calling actor 'inspector's method 'supportsHighlighters'" "doc.documentElement is null"
+console.error: (new TypeError("doc.documentElement is null", "resource://devtools/server/actors/inspector/inspector.js", 309))
+console.error: (new Error("Protocol error (TypeError): doc.documentElement is null from: server0.conn0.child4/inspectorActor3 (resource://devtools/server/actors/inspector/inspector.js:309:16)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet."
+console.error: (new TypeError("InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet.", "resource://devtools/server/actors/style-rule.js", 157))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet."
+console.error: (new TypeError("InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet.", "resource://devtools/server/actors/style-rule.js", 157))
+console.error: (new Error("Protocol error (TypeError): InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet. from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/style-rule.js:157:25)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Protocol error (TypeError): InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet. from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/style-rule.js:157:25)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Protocol error (TypeError): InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet. from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/style-rule.js:157:25)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Protocol error (TypeError): InspectorUtils.hasRulesModifiedByCSSOM: Argument 1 does not implement interface CSSStyleSheet. from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/style-rule.js:157:25)", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "can't access dead object"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/page-style.js", 1008))
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/page-style.js:1008:24)", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript error: https://74779947ea2d.cdn4.forter.com/sn/74779947ea2d/script.js, line 1: SyntaxError: expected expression, got '<'
+1663835378445	Marionette	INFO	Stopped listening on port 58021663835381226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXmEx8b"
+1663835381653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileXmEx8b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58213/devtools/browser/8c62be65-8083-4fd9-aa64-b5b2c37c5356
+1663835383930	Marionette	INFO	Listening on port 58220
+1663835384410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.qwant.com/779d514aec7bfcfcf91a_app.chunks.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.qwant.com/779d514aec7bfcfcf91a_app.chunks.js, line 1: unreachable code after return statement
+1663835423827	Marionette	INFO	Stopped listening on port 58220
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 2740, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1663835424565	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1663835549933	geckodriver	INFO	Listening on 127.0.0.1:50509
+1663835552962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50510" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileEzNl70"
+1663835632813	geckodriver	INFO	Listening on 127.0.0.1:50663
+1663835635839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50664" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileB1XR50"
+1663835636339	Marionette	INFO	Marionette enabled
+1663835636349	Marionette	INFO	Listening on port 50676
+WebDriver BiDi listening on ws://localhost:50664
+Read port: 50676
+1663835636508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileB1XR50\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50664/devtools/browser/043ee8de-c49d-45cd-aba4-666a766f8ad5
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=021TnqaHNt45DBNFTyiGlOwBgjLu0zjOIXnbNaLCxKBQ8NCLUyxvrbmEnL5xMKvFXrpfORLKvKAFc2Vx8LUc2SOiuhHQX6yfAeCZKS6Fw0rTDYR43K29EVOLQv4cuRz1nPLjN3UfRhNU9k8lY8ugaSsc7l0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=021TnqaHNt45DBNFTyiGlOwBgjLu0zjOIXnbNaLCxKBQ8NCLUyxvrbmEnL5xMKvFXrpfORLKvKAFc2Vx8LUc2SOiuhHQX6yfAeCZKS6Fw0rTDYR43K29EVOLQv4cuRz1nPLjN3UfRhNU9k8lY8ugaSsc7l0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=021TnqaHNt45DBNFTyiGlOwBgjLu0zjOIXnbNaLCxKBQ8NCLUyxvrbmEnL5xMKvFXrpfORLKvKAFc2Vx8LUc2SOiuhHQX6yfAeCZKS6Fw0rTDYR43K29EVOLQv4cuRz1nPLjN3UfRhNU9k8lY8ugaSsc7l0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02uxJSMNhPwW9CtZDVA7yekNDdUIes1RPee8LSYhc3qM5jIjVXlHIQgxwSUUFr8pYtsMo3jslPBkDIiq8YQh2liH6PeZ1yOM7CxHHfawcOoex60E6Sbk2LkEah2qayixuKeFWWdU1b0QjYY4t8EUbVeuuuX, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02uxJSMNhPwW9CtZDVA7yekNDdUIes1RPee8LSYhc3qM5jIjVXlHIQgxwSUUFr8pYtsMo3jslPBkDIiq8YQh2liH6PeZ1yOM7CxHHfawcOoex60E6Sbk2LkEah2qayixuKeFWWdU1b0QjYY4t8EUbVeuuuX, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02uxJSMNhPwW9CtZDVA7yekNDdUIes1RPee8LSYhc3qM5jIjVXlHIQgxwSUUFr8pYtsMo3jslPBkDIiq8YQh2liH6PeZ1yOM7CxHHfawcOoex60E6Sbk2LkEah2qayixuKeFWWdU1b0QjYY4t8EUbVeuuuX, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.b74e776999474ea22d64.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663835647776	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1663835648568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1663835649307	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1663835699244	Marionette	INFO	Stopped listening on port 50671663835700275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50832" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofile7W9zLH"
+1663835700946	Marionette	INFO	Marionette enabled
+1663835700960	Marionette	INFO	Listening on port 50853
+Read port: 50853
+WebDriver BiDi listening on ws://localhost:50832
+1663835701146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofile7W9zLH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50832/devtools/browser/5472e27b-c9b8-4884-9d8c-46614db824e4
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03c7PQVXquoUFtfsCxIYpHTUFLGJJWc3MNpdjYpW4IZkcPQAT1AmlgOU0VveSrulmlVe1XDOVvBecibMUKrE8L62fE5mCfSnNGZIQTjSks2mTMaAKWKz0vY4V0DovJOxPpYtGiqhnD4Mv9nnypJ1mJvo4Z2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03c7PQVXquoUFtfsCxIYpHTUFLGJJWc3MNpdjYpW4IZkcPQAT1AmlgOU0VveSrulmlVe1XDOVvBecibMUKrE8L62fE5mCfSnNGZIQTjSks2mTMaAKWKz0vY4V0DovJOxPpYtGiqhnD4Mv9nnypJ1mJvo4Z2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03c7PQVXquoUFtfsCxIYpHTUFLGJJWc3MNpdjYpW4IZkcPQAT1AmlgOU0VveSrulmlVe1XDOVvBecibMUKrE8L62fE5mCfSnNGZIQTjSks2mTMaAKWKz0vY4V0DovJOxPpYtGiqhnD4Mv9nnypJ1mJvo4Z2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://74779947ea2d.cdn4.forter.com/sn/74779947ea2d/script.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03BtXJjSP5kC7g8jtekmAxojcDIk37FrkQr5JePtuyTstZ7zf9RNRC2gBzQrSm1IyFgu9aEeSLHv583AhO8tDAIYwLQ3gbukno360wquwGuPjPmJnIsz1K7zAm9FvLcPCgG98Pmofi0vWyf9VxKsBQd1Fba, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03BtXJjSP5kC7g8jtekmAxojcDIk37FrkQr5JePtuyTstZ7zf9RNRC2gBzQrSm1IyFgu9aEeSLHv583AhO8tDAIYwLQ3gbukno360wquwGuPjPmJnIsz1K7zAm9FvLcPCgG98Pmofi0vWyf9VxKsBQd1Fba, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03BtXJjSP5kC7g8jtekmAxojcDIk37FrkQr5JePtuyTstZ7zf9RNRC2gBzQrSm1IyFgu9aEeSLHv583AhO8tDAIYwLQ3gbukno360wquwGuPjPmJnIsz1K7zAm9FvLcPCgG98Pmofi0vWyf9VxKsBQd1Fba, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1663835977271	Marionette	INFO	Stopped listening on port 50853
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51032" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileVeK9xL"
+1663835975269	Marionette	INFO	Marionette enabled
+1663835975320	Marionette	INFO	Listening on port 51045
+WebDriver BiDi listening on ws://localhost:51032
+Read port: 51045
+1663835975555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663835975662	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileVeK9xL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51032/devtools/browser/726d3c75-87d4-49d3-972c-f6451437c3e4
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LC7gyGf3Qt16KjVNuK9EV0I4BYtcTOhGis7M9IAhEUPc2QXMOPZf6RkAckzD5HwRZv7FzfML6bUZ8YgMR2Adz52hwtjHvqe7MfRgKQ4BwuRRyrkJ1IjLD58AJp9L3We6KXjxw2Gpm0bLIAobk6QhYo0zt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LC7gyGf3Qt16KjVNuK9EV0I4BYtcTOhGis7M9IAhEUPc2QXMOPZf6RkAckzD5HwRZv7FzfML6bUZ8YgMR2Adz52hwtjHvqe7MfRgKQ4BwuRRyrkJ1IjLD58AJp9L3We6KXjxw2Gpm0bLIAobk6QhYo0zt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LC7gyGf3Qt16KjVNuK9EV0I4BYtcTOhGis7M9IAhEUPc2QXMOPZf6RkAckzD5HwRZv7FzfML6bUZ8YgMR2Adz52hwtjHvqe7MfRgKQ4BwuRRyrkJ1IjLD58AJp9L3We6KXjxw2Gpm0bLIAobk6QhYo0zt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03pCIS6xH4ySaC10pLEz39rXjduSQI4U5wRW0PEdPNewkiEbEUAfMuowwEN1wPFbVHXiXdYFQXWd1Fdg8Z5aenHeXbQ4TSc2SFCQZAs4M6SleIAtjFGOZz20N7S4hfvUOsIGIps61ftAD9JeYPWCPY4RKpd, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03pCIS6xH4ySaC10pLEz39rXjduSQI4U5wRW0PEdPNewkiEbEUAfMuowwEN1wPFbVHXiXdYFQXWd1Fdg8Z5aenHeXbQ4TSc2SFCQZAs4M6SleIAtjFGOZz20N7S4hfvUOsIGIps61ftAD9JeYPWCPY4RKpd, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03pCIS6xH4ySaC10pLEz39rXjduSQI4U5wRW0PEdPNewkiEbEUAfMuowwEN1wPFbVHXiXdYFQXWd1Fdg8Z5aenHeXbQ4TSc2SFCQZAs4M6SleIAtjFGOZz20N7S4hfvUOsIGIps61ftAD9JeYPWCPY4RKpd, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.a741770998474ea62d31.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1663835995084	Marionette	INFO	Stopped listening on port 51045
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663836050345	geckodriver	INFO	Listening on 127.0.0.1:51254
+1663836053381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileffRKM0"
+1663836053818	Marionette	INFO	Marionette enabled
+1663836053826	Marionette	INFO	Listening on port 51266
+WebDriver BiDi listening on ws://localhost:51255
+Read port: 51266
+1663836053963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663836054029	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileffRKM0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51255/devtools/browser/855e8906-a063-4fdf-a03d-46ca2218240b
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03Dr80BvS8DGmXoiD6UvAvsNK2Gt5NKER08ziEjC1ILDwQkfxJ8byUFbFk0G8erljJk0HS6U3kkDPQMsdz53LA8KHT730x0WrMG34UQEIwdohuQMtQjnJfi8RgxTcygAPwHzfE4RKe89sCMJmwCTiz1f2M0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03Dr80BvS8DGmXoiD6UvAvsNK2Gt5NKER08ziEjC1ILDwQkfxJ8byUFbFk0G8erljJk0HS6U3kkDPQMsdz53LA8KHT730x0WrMG34UQEIwdohuQMtQjnJfi8RgxTcygAPwHzfE4RKe89sCMJmwCTiz1f2M0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03Dr80BvS8DGmXoiD6UvAvsNK2Gt5NKER08ziEjC1ILDwQkfxJ8byUFbFk0G8erljJk0HS6U3kkDPQMsdz53LA8KHT730x0WrMG34UQEIwdohuQMtQjnJfi8RgxTcygAPwHzfE4RKe89sCMJmwCTiz1f2M0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=0281S2Fb39ZzWwneOXGAwQ560cUO935lk9FlQ4C5edVHvdaveqND7jkpqj06ibFhi6MG1yl9tHizYKBqT3a1pJ8jMlUlA32Pm1ImeaSxq744TJNzn5GTzgGxjeGh8ev36n2XMMzXCpZkuY7lMbt0S1QqXVJ, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=0281S2Fb39ZzWwneOXGAwQ560cUO935lk9FlQ4C5edVHvdaveqND7jkpqj06ibFhi6MG1yl9tHizYKBqT3a1pJ8jMlUlA32Pm1ImeaSxq744TJNzn5GTzgGxjeGh8ev36n2XMMzXCpZkuY7lMbt0S1QqXVJ, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=0281S2Fb39ZzWwneOXGAwQ560cUO935lk9FlQ4C5edVHvdaveqND7jkpqj06ibFhi6MG1yl9tHizYKBqT3a1pJ8jMlUlA32Pm1ImeaSxq744TJNzn5GTzgGxjeGh8ev36n2XMMzXCpZkuY7lMbt0S1QqXVJ, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.a74b773999474eaf2ddf.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1663836110794	Marionette	INFO	Stopped listening on port 51266
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 1204: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+021	Marionette	INFO	Listening on port 51384
+WebDriver BiDi listening on ws://localhost:51373
+Read port: 51384
+1663836110298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663836110346	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileZP8mai\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51373/devtools/browser/a10a480a-ef48-4b42-9f9f-28109dcd2d08
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript error: https://74779947ea2d.cdn4.forter.com/sn/74779947ea2d/script.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=023MI9Th0Ckq9WndCalEAfhFKhyr2vOQPnpeH9aEgiuQybqj0XYKinL4DsOU5A94QWedIY8LICmtIBmiqbM4NOnDXXjTLnKzkZH6SYN8fpQob1kJTe4oAqsbKLJlLAxm4yLYBSwVILxDiRUDJkCj0wXRQXv, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=023MI9Th0Ckq9WndCalEAfhFKhyr2vOQPnpeH9aEgiuQybqj0XYKinL4DsOU5A94QWedIY8LICmtIBmiqbM4NOnDXXjTLnKzkZH6SYN8fpQob1kJTe4oAqsbKLJlLAxm4yLYBSwVILxDiRUDJkCj0wXRQXv, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=023MI9Th0Ckq9WndCalEAfhFKhyr2vOQPnpeH9aEgiuQybqj0XYKinL4DsOU5A94QWedIY8LICmtIBmiqbM4NOnDXXjTLnKzkZH6SYN8fpQob1kJTe4oAqsbKLJlLAxm4yLYBSwVILxDiRUDJkCj0wXRQXv, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02CJa9W8BLwrd75pP88D7qCVaqNe0EOMqtP1dzCMMpMxOH02jnatXgxA6auXlcODUeimKl34FeKmVIJ2xHFgSqA1slEPySflA8r7rLcDfCoUY1eWuh9j0yiCQ1ZAWEm191BlUMVgcjnbiye0WCfcdUJiAND, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02CJa9W8BLwrd75pP88D7qCVaqNe0EOMqtP1dzCMMpMxOH02jnatXgxA6auXlcODUeimKl34FeKmVIJ2xHFgSqA1slEPySflA8r7rLcDfCoUY1eWuh9j0yiCQ1ZAWEm191BlUMVgcjnbiye0WCfcdUJiAND, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02CJa9W8BLwrd75pP88D7qCVaqNe0EOMqtP1dzCMMpMxOH02jnatXgxA6auXlcODUeimKl34FeKmVIJ2xHFgSqA1slEPySflA8r7rLcDfCoUY1eWuh9j0yiCQ1ZAWEm191BlUMVgcjnbiye0WCfcdUJiAND, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663836130656	Marionette	INFO	Stopped listening on port 51384
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1663836313683	geckodriver	INFO	Listening on 127.0.0.1:51580
+1663836316727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileo9c0zu"
+1663836317180	Marionette	INFO	Marionette enabled
+1663836317188	Marionette	INFO	Listening on port 51592
+Read port: 51592
+WebDriver BiDi listening on ws://localhost:51581
+1663836317329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663836317397	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileo9c0zu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51581/devtools/browser/392ed2a0-02c4-46b3-a130-992ca532192d
+1663836320682	Marionette	INFO	Stopped listening on port 51592
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1663836320756	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no] Stack trace: allowAllCerts.disable()@cert.js:55
+destroy()@Session.jsm:202
+deleteSession()@WebDriverBiDi.jsm:143
+stop()@WebDriverBiDi.jsm:218
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1663836636097	geckodriver	INFO	Listening on 127.0.0.1:52211
+1663836639188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52212" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileck90Zn"
+1663836639677	Marionette	INFO	Marionette enabled
+1663836639685	Marionette	INFO	Listening on port 52224
+WebDriver BiDi listening on ws://localhost:52212
+Read port: 52224
+1663836639826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663836639897	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileck90Zn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52212/devtools/browser/66b7450d-d2c5-4d2b-a416-377859b7983d
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=026OFzOTloRgqPt51xmyBlhvmRDWF51DMfq0wM1Ea9zahFVW1zYDZxUkevUk404LKaT9jE2FkQeHx6uJLZbXOWKZMajKFftmzbCQBnVqmhnqdFYnmSgGfPiguvUvDidyWeOjEpgj0qzRgz6N66qxG8siGNx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=026OFzOTloRgqPt51xmyBlhvmRDWF51DMfq0wM1Ea9zahFVW1zYDZxUkevUk404LKaT9jE2FkQeHx6uJLZbXOWKZMajKFftmzbCQBnVqmhnqdFYnmSgGfPiguvUvDidyWeOjEpgj0qzRgz6N66qxG8siGNx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=026OFzOTloRgqPt51xmyBlhvmRDWF51DMfq0wM1Ea9zahFVW1zYDZxUkevUk404LKaT9jE2FkQeHx6uJLZbXOWKZMajKFftmzbCQBnVqmhnqdFYnmSgGfPiguvUvDidyWeOjEpgj0qzRgz6N66qxG8siGNx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03D56LRKqnkrL3olM3FQlCduHKT7gK5g1M7258JUer7TxyGNFrMK7IRJREIwVUDGN439ooPD06m2ezH4xUeVkQ0EABBQcZ71t43e8hoY1Iutj4NAnGkmVA2YJKXObUMcYIzSrYPxgM3EsyJdKDHbtrrf5Vn, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03D56LRKqnkrL3olM3FQlCduHKT7gK5g1M7258JUer7TxyGNFrMK7IRJREIwVUDGN439ooPD06m2ezH4xUeVkQ0EABBQcZ71t43e8hoY1Iutj4NAnGkmVA2YJKXObUMcYIzSrYPxgM3EsyJdKDHbtrrf5Vn, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03D56LRKqnkrL3olM3FQlCduHKT7gK5g1M7258JUer7TxyGNFrMK7IRJREIwVUDGN439ooPD06m2ezH4xUeVkQ0EABBQcZ71t43e8hoY1Iutj4NAnGkmVA2YJKXObUMcYIzSrYPxgM3EsyJdKDHbtrrf5Vn, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663836647786	Marionette	INFO	Stopped listening on port 52224
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1663836647851	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no] Stack trace: allowAllCerts.disable()@cert.js:55
+destroy()@Session.jsm:202
+deleteSession()@WebDriverBiDi.jsm:143
+stop()@WebDriverBiDi.jsm:218
+observe()@resource://gre/modules/AsyncShutdown.jsm:575
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\alowczyk\AppData\Local\Temp\rust_mozprofileck90Zn\protections.sqlite
+1663837015072	geckodriver	INFO	Listening on 127.0.0.1:53172
+1663837018180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileu3gqkP"
+1663837018563	Marionette	INFO	Marionette enabled
+1663837018570	Marionette	INFO	Listening on port 53184
+WebDriver BiDi listening on ws://localhost:53173
+Read port: 53184
+1663837018695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837018758	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileu3gqkP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53173/devtools/browser/8e44e880-614b-4701-bde7-65c2a6f3bf3b
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=040po55ockBC5FAENhvWdrI58dzFVYo3VA2425WmYhPHJpyjyxRhlgslonKbfb07Gbvnxt3dOXCpm8YObGe4CrcSMLfcFdSBobUQx7cBkbHFN73P7pxQKgznEo9SexxreCpaYPig5PsZYQyiYwlF5n3TlE8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=040po55ockBC5FAENhvWdrI58dzFVYo3VA2425WmYhPHJpyjyxRhlgslonKbfb07Gbvnxt3dOXCpm8YObGe4CrcSMLfcFdSBobUQx7cBkbHFN73P7pxQKgznEo9SexxreCpaYPig5PsZYQyiYwlF5n3TlE8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=040po55ockBC5FAENhvWdrI58dzFVYo3VA2425WmYhPHJpyjyxRhlgslonKbfb07Gbvnxt3dOXCpm8YObGe4CrcSMLfcFdSBobUQx7cBkbHFN73P7pxQKgznEo9SexxreCpaYPig5PsZYQyiYwlF5n3TlE8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ElLmfOkqnSSFWxml0iAJ5XPNSWKR0LeHX7ewwZHXVUxvYBQkHsgbaoy5GauWAr3PhRPsSM2aLvBWhVRHnLOHtN2esBnS4HAuWPfOpP2CqwURWvaOwZQp347lrRtScnxsb0BnwPv9fmD4xeZONuM1xr3oM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ElLmfOkqnSSFWxml0iAJ5XPNSWKR0LeHX7ewwZHXVUxvYBQkHsgbaoy5GauWAr3PhRPsSM2aLvBWhVRHnLOHtN2esBnS4HAuWPfOpP2CqwURWvaOwZQp347lrRtScnxsb0BnwPv9fmD4xeZONuM1xr3oM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ElLmfOkqnSSFWxml0iAJ5XPNSWKR0LeHX7ewwZHXVUxvYBQkHsgbaoy5GauWAr3PhRPsSM2aLvBWhVRHnLOHtN2esBnS4HAuWPfOpP2CqwURWvaOwZQp347lrRtScnxsb0BnwPv9fmD4xeZONuM1xr3oM, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.3741777997474eaa2d29.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aa1663837064356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exeJavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindow1663837065143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837065231	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofilepD9nPe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53458/devtools/browser/1241c26f-d1d8-4a2b-b312-29a611eba085
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LbzsPuYW1Zx56fk31rCEiuJRZasCIZyJvrYHL87Uc2eLXl4cVCComWnfeu4AUK0ZpCu79YvIHrazfsAVPVgWdwtvXM0iF9noGEQGUdvOUegiXW2eDWn3QYALqGXus8FOP48PXIZs2SY0BaRZpFEbcAjtV, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LbzsPuYW1Zx56fk31rCEiuJRZasCIZyJvrYHL87Uc2eLXl4cVCComWnfeu4AUK0ZpCu79YvIHrazfsAVPVgWdwtvXM0iF9noGEQGUdvOUegiXW2eDWn3QYALqGXus8FOP48PXIZs2SY0BaRZpFEbcAjtV, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LbzsPuYW1Zx56fk31rCEiuJRZasCIZyJvrYHL87Uc2eLXl4cVCComWnfeu4AUK0ZpCu79YvIHrazfsAVPVgWdwtvXM0iF9noGEQGUdvOUegiXW2eDWn3QYALqGXus8FOP48PXIZs2SY0BaRZpFEbcAjtV, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ZpUd9WZVq4jvzWUuZUdOzvZ6k8ju6pBSQpvtrtTKv2DE5znxX8qc9lRCCCLfOvEVSZLz3zyfB6rAAisF2Mx385FxtV9EwmY6Mi9Rc4g7VWG3qyZ5R9LiGLDWIVWBn6pG31uTVECYQACfxq2Nphm1BpWjO, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ZpUd9WZVq4jvzWUuZUdOzvZ6k8ju6pBSQpvtrtTKv2DE5znxX8qc9lRCCCLfOvEVSZLz3zyfB6rAAisF2Mx385FxtV9EwmY6Mi9Rc4g7VWG3qyZ5R9LiGLDWIVWBn6pG31uTVECYQACfxq2Nphm1BpWjO, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=03ZpUd9WZVq4jvzWUuZUdOzvZ6k8ju6pBSQpvtrtTKv2DE5znxX8qc9lRCCCLfOvEVSZLz3zyfB6rAAisF2Mx385FxtV9EwmY6Mi9Rc4g7VWG3qyZ5R9LiGLDWIVWBn6pG31uTVECYQACfxq2Nphm1BpWjO, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.774e77199a474ea32d07.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js, line 1: TypeError: _0x584f02 is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1663837090763	Marionette	INFO	Stopped listening on port 53469
+1663837181915	geckodriver	INFO	Listening on 127.0.0.1:53653
+1663837184975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53654" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileDWtdzm"
+1663837185437	Marionette	INFO	Marionette enabled
+1663837185444	Marionette	INFO	Listening on port 53668
+WebDriver BiDi listening on ws://localhost:53654
+Read port: 53668
+1663837185677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837185724	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileDWtdzm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53654/devtools/browser/244a13ed-954a-40b9-8d1b-04929249da6b
+1663837194352	Marionette	INFO	Stopped listening on port 53668
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1663837198368	geckodriver	INFO	Listening on 127.0.0.1:53710
+1663837201455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileNJBvMh"
+1663837201833	Marionette	INFO	Marionette enabled
+1663837201840	Marionette	INFO	Listening on port 53722
+WebDriver BiDi listening on ws://localhost:53711
+Read port: 53722
+1663837201968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837202031	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileNJBvMh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53711/devtools/browser/0d85fb62-8a4b-4347-9ed0-25e40b0de756
+1663837227868	Marionette	INFO	Stopped listening on port 53722
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofilez9Y4K3"
+1663837227615	Marionette	INFO	Marionette enabled
+1663837227622	Marionette	INFO	Listening on port 53773
+WebDriver BiDi listening on ws://localhost:53762
+Read port: 53773
+1663837227870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837228012	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofilez9Y4K3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53762/devtools/browser/844a5098-a75b-4bec-bd6f-292a3c506497
+1663837286933	Marionette	INFO	Stopped listening on port 53773
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53812" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileW5emSv"
+1663837256168	Marionette	INFO	Marionette enabled
+1663837256175	Marionette	INFO	Listening on port 53823
+WebDriver BiDi listening on ws://localhost:53812
+Read port: 53823
+1663837256300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663837256359	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileW5emSv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53812/devtools/browser/4fb9dc52-8c36-4111-96d1-665b2da274d8
+1663837261593	Marionette	INFO	Stopped listening on port 53823
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1663839459395	geckodriver	INFO	Listening on 127.0.0.1:65312
+1663839462436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileP1SBp9"
+1663839462825	Marionette	INFO	Marionette enabled
+1663839462832	Marionette	INFO	Listening on port 65325
+WebDriver BiDi listening on ws://localhost:65313
+Read port: 65325
+1663839462968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663839463033	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"51.103.27.73:8000","sslProxy":"51.103.27.73:8000"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alowczyk\\AppData\\Local\\Temp\\rust_mozprofileP1SBp9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65313/devtools/browser/749e945f-9de8-487b-a9f5-6cbf8abb3686
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: unreachable code after return statement
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nike.com/JlBXu-i36e/PADQjYXT/ri/uzEhwtN81Qau/SxBdJRdhAQ/SGx/pIxQ3bzQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02AR4l3LPgFu5SxeCg2J8rdGOgiymLw1LdF6S3XHJafynE0sDcEzeSm8MlGkxXd3St27TBCdqMy6amyEjsowdxAdqCbrxPrq26pCbKY3G6QFR8IOFZOUeMQ9xkRtqNxIwrBGBSNl16Zd3cNrcmeqcGMBwVu, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02AR4l3LPgFu5SxeCg2J8rdGOgiymLw1LdF6S3XHJafynE0sDcEzeSm8MlGkxXd3St27TBCdqMy6amyEjsowdxAdqCbrxPrq26pCbKY3G6QFR8IOFZOUeMQ9xkRtqNxIwrBGBSNl16Zd3cNrcmeqcGMBwVu, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://unite.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02AR4l3LPgFu5SxeCg2J8rdGOgiymLw1LdF6S3XHJafynE0sDcEzeSm8MlGkxXd3St27TBCdqMy6amyEjsowdxAdqCbrxPrq26pCbKY3G6QFR8IOFZOUeMQ9xkRtqNxIwrBGBSNl16Zd3cNrcmeqcGMBwVu, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LqEL2MyDnhbJiA0mM83thAy0b4XKmp7chADzR6nKfB4s6FGglNDrq6bHCycEe4FGsPuQQsbSiLJhGByu1gm2jAZP35Flx8FNrl66s90HYhDZ5xM9oeUGHdH6BA3G0vrNOiDLFrLssiousR8XX0E82DFrt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LqEL2MyDnhbJiA0mM83thAy0b4XKmp7chADzR6nKfB4s6FGglNDrq6bHCycEe4FGsPuQQsbSiLJhGByu1gm2jAZP35Flx8FNrl66s90HYhDZ5xM9oeUGHdH6BA3G0vrNOiDLFrLssiousR8XX0E82DFrt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_nke-2.2=02LqEL2MyDnhbJiA0mM83thAy0b4XKmp7chADzR6nKfB4s6FGglNDrq6bHCycEe4FGsPuQQsbSiLJhGByu1gm2jAZP35Flx8FNrl66s90HYhDZ5xM9oeUGHdH6BA3G0vrNOiDLFrLssiousR8XX0E82DFrt, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dkupaw9ae63a8.cloudfront.net/main.174a77c99c474ea22d54.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.nike.com/assets/experience/dotcom-snkrs/ux/builds/app.181b4a2470569157cfdc.js line 1 > eval, line 13: TypeError: object must be passed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1663839481083	Marionette	INFO	Stopped listening on port 65325
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
