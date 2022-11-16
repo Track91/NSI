@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML et CSS</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <p>Cours de
+      <abbr title="Numériques et Sciences de l'Informatique">NSI</abbr> du
+      <a href="https://lipsp.fr/">lycée international de Palaiseau</a>.
+    </header>
+    <nav>
+      <ol>
+        <li>
+					<a href="#intro">Brève présentation du web</a>
+					<ol>
+						<li><a href="#description-dune-page-web">Description d'une page
+								web</a></li>
+					</ol>
+				</li><li>
+					<a href="#comment-ecrire-une-page-web">Comment écrire une page
+						web</a>
+					<ol>
+						<li>
+							<a href="#html">HTML</a>
+							<ol>
+								<li>
+									<a href="#balises">Les balises</a>
+									<ol>
+										<li>
+											<a href="#balises-importantes">Quelques balises
+												importantes</a>
+										</li><li>
+											<a href="#balises-neutres-classes-id">Balises neutres,
+												classes et identifiants</a>
+										</li>
+									</ol>
+								</li>
+							</ol>
+						</li><li>
+							<a href="#css">CSS</a>
+							<ol>
+								<li>
+									<a href="#ecrire-css">Écrire du CSS</a>
+								</li><li>
+									<a href="#proprietes-css">Quelques propritétés du CSS</a>
+									<ol>
+										<li>
+											<a href="#box-model">Modèle de boîte</a>
+										</li><li>
+											<a href="#longueurs-couleurs">Longueurs et couleurs</a>
+										</li>
+									</ol>
+								</li><li>
+									<a href="#selecteurs">Sélecteurs CSS</a>
+								</li><li>
+									<a href="#confit">Résolution de conflits</a>
+								</li>
+							</ol>
+						</li>
+					</ol>
+				</li><li>
+					<a href="#exercices">Exercices</a>
+				</li>
+      </ol>
+    </nav>
+    <main>
+			<h1>Programmation web : HTML et CSS</h1>
+
+      <section id="intro">
+        <h2>Brève présentation du web</h2>
+        <p>Le <strong><i>World Wide Web</i></strong> (littéralement la &laquo;
+        la toile mondiale &raquo;), souvent abrégé en <strong>web</strong>, est
+        un système fonctionnant sur internet permettant de consulter des
+        documents (textes, musiques, vidéos).
+        Ces documents, appelés <strong>pages web</strong>, sont regroupés sur
+        des <strong>sites web</strong> qui sont accessible via les protocoles
+        <abbr title="HyperText Transfer Protocol">HTTP</abbr> ou
+        <abbr title="HTTP Sécurisé">HTTPS</abbr> à l'aide d'un
+        <strong>navigateur web</strong>.</p>
+
+        <details>
+          <summary>Quelques exemples de navigateur web.</summary>
+          <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Mozilla_Firefox">Mozilla
+                Firefox</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Google_chrome">Google
+                Chrome</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Safari_(navigateur_web)">
+                Safari</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Microsoft_Edge">Microsoft
+                Edge</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Opera">Opera</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Lynx_(navigateur)">
+                Lynx</a></li>
+          </ul>
+        </details>
+
+        <p>Le web a été inventé entre 1989 et 1990 par
+        <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">Tim
+          Berners-Lee</a>.</p>
+
+        <details>
+          <summary>Les grandes étapes du développement web</summary>
+          <ul>
+            <li>1980-1984 : Création du langage de balisage
+              <abbr title="Standard Generalized Markup Language">SGML</abbr>.
+              Il est basé sur le concept de balises et de liens hypertextes et
+              propose pour la première fois de séparer la structure d'un
+              document de sa présentation (imprimée, sur écran, etc.).
+              Il est adopté par de nombreuses institutions et grandes
+              entreprises comme format de stockage pour leur documentation
+              technique (notamment le
+              <abbr title="Centre Européen pour la Recherche
+                           Nucléaire">CERN</abbr>).</li>
+            <li>1986 : SGML devient la norme ISO 8879:1986.</li>
+            <li>1991 : Tim Berners-Lee, informaticien britannique travaillant
+              au CERN, annonce la première version du web.
+              Ce dernier est basé sur un format de document inspiré du SGML
+              mais très simplifié : HTML.</li>
+            <li>1993 : Les premiers navigateurs web graphiques apparaissent.
+              Le langage HTML évolue pour intégrer de nouvelles balises telles
+              que les tables.</li>
+            <li>1994-1997 création du
+              <abbr title="World Wide Web Consortium">W3C</abbr>, organisme de
+              normalisation qui publie la spécification du HTML 4.0 en
+              1997.</li>
+            <li>2000-2007 : Le web se développe de manière rapide mais non
+              concertée.
+              HTML est étendu de manière non-standard par différents
+              navigateurs de l'époque (Internet Explorer, Netscape, Mozilla
+              Firefox).</li>
+            <li>2007-2014 : Un long effort de modernisation et de
+              standardisation du HTML est entrepris, ce qui donnera HTML 5 en
+              2014.
+              Le format entre dans la modernité en standardisant l'intégration
+              de contenus multimédia (audio et vidéo) et en facilitant
+              l'adaptabilité des pages web (la page s'adapte automatiquement
+              quel que soit le support : ordinateur, appareil mobile, page
+              imprimmée, etc.).</li>
+          </ul>
+        </details>
+
+        <p>Il est important de ne pas confondre web et internet : le web n'est
+        qu'une des applications d'internet (même si c'est la plus visible).
+        Par exemple, l'envoi de mails (protocole
+        <abbr title="Simple Mail Transfer Protocol">SMTP</abbr>) ou leur
+        réception (protocoles
+        <abbr title="Internet Message Access Protocol">IMAP</abbr> ou
+        <abbr title="Post Office Protocol">POP</abbr>) se font grâce à internet
+        mais pas sur le web.</p>
+
+        <section id="description-dune-page-web">
+          <h3>Description d'une page web</h3>
+
+          <p>La description de pages web s'effectue à l'aide de trois types de
+          documents.
+          </p>
+          <ul>
+            <li>Le contenu d'une page web et sa structure sont décrites à
+              l'aide de <a href="#html">documents HTML</a>.</li>
+            <li>L'apparence d'une page web est décrite à l'aide de
+              <a href="#css">feuilles de style CSS</a>.</li>
+            <li>Les aspects interactifs d'une page sont décrites à l'aide d'un
+              script JavaScript.</li>
+          </ul>
+
+          <p>Aujourd'hui, nous allons voir comment utiliser le HTML et le CSS.
+          Le JavaScript sera étudié plus tard dans l'année.</p>
+
+        </section>
+      </section>
+
+      <section id="comment-ecrire-une-page-web">
+        <h2>Comment écrire une page web ?</h2>
+
+        <section id="html">
+          <h3>HTML</h3>
+          <p>Le <a href="https://fr.wikipedia.org/wiki/HTML">langage de
+            balisage hypertexte</a> ou
+          <abbr title="HyperText Markup Language">HTML</abbr>
+          est un langage permettant de de décrire la structure et le contenu
+          d'une page web.
+          Il répond à la question &laquo; Qu'est-ce que dit la page ?
+          &raquo;.</p>
+
+          <p>Le HTML est un <b>langage de balisage</b>.
+          Ce n'est pas un langage de programmation !
+          L'objectif n'est pas d'effectuer des opérations (comme avec Python ou
+          Scratch) mais de décrire un document.</p>
+
+          <p>Par exemple, regardons <a href="ex1.html">ce document HTML
+            simple</a>.
+          Comme on peut le voir, un document HTML est constitué d'éléments,
+          dont la structure est décrite ci-dessous.
+          </p>
+
+					<figure id="element-html">
+						<img src="chat-grincheuxl.png"
+								 alt="description d'un élément HTML">
+						<figcaption>Un élément HTML (©1998–2022 contributeurs
+							mozilla.org)</figcaption>
+					</figure>
+
+          <p>Ces éléments sont imbriqués les uns dans les autres afin de former
+          une arborescence (comme pour les <i>widgets</i> de TkInter).
+          Certains éléments disposent d'attributs qui sont indiquées dans la
+          balise ouvrante.</p>
+
+          <p>Les documents HTML ont <b>toujours</b> la même structure : celle
+          du fichier
+          <a href="structure.html.txt"><code>structure.html</code></a>.</p>
+
+          <p>Certaines balises (comme la balise <code>meta</code>) sont
+          appellées des <strong>balises vides</strong>.
+          Pour ces balises, on ne dispose pas de balise fermante : la balise
+          est ouverte et fermée en même temps.
+          Ce comportement est parfois signalé en écrivant <code>&lt;meta
+            charset="utf-8" /&gt;</code>.</p>
+
+          <details>
+            <summary>Les balises vide</summary>
+            <ul>
+              <li><code>area</code></li>
+              <li><code>base</code></li>
+              <li><code>br</code></li>
+              <li><code>col</code></li>
+              <li><code>embed</code></li>
+              <li><code>hr</code></li>
+              <li><code>img</code></li>
+              <li><code>input</code></li>
+              <li><code>meta</code></li>
+              <li><code>param</code></li>
+              <li><code>source</code></li>
+              <li><code>track</code></li>
+              <li><code>wbr</code></li>
+            </ul>
+          </details>
+
+          <p>Le HTML est un langage standardisé.
+          Il est donc important de s'assurer que le document HTML est correct.
+          Pour cela, on pourra utiliser le
+          <a href="https://validator.w3.org/#validate-by-input">validateur de
+            HTML du W3C</a>.
+          </p>
+
+          <section id="balises">
+            <h4>Les balises</h4>
+
+            <p>Les balises HTML sont regroupées en deux catégories : les
+            balises de structure qui indiquent la structure du document, et les
+            balises de texte dont l'effet porte sur un morceau de texte.</p>
+
+            <section id="balises-importantes">
+              <h5>Quelques balises importantes</h5>
+
+              <p>Pour savoir ce que font les balises et quand les utiliser, on
+              se réfèrera à la
+              <a href="https://developer.mozilla.org/fr/">documentation en
+                ligne de la fondation Mozilla</a>.</p>
+
+              <p>Les balises <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>,
+              <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>,
+              <code>&lt;h5&gt;</code> et <code>&lt;h6&gt;</code> permettent de
+              définir des titres de sections, sous-sections, etc. jusqu'à six
+              niveaux.</p>
+
+              <p>La balise <code>&lt;p&gt;</code> représente un paragraphe.
+              Les espaces et les retours à la ligne sont ignorés.</p>
+
+              <p>La balise <code>&lt;ol&gt;</code> permet de créer une liste à
+              numéros (<i>ordrerd list</i>).
+              Chaque élément de la liste est identifié par un la balise
+              <code>&lt;li&gt;</code>.
+              On peut de la même manière créer une liste à puces (<i>unordered
+                list</i>) à l'aide de la balise <code>&lt;ul&gt;</code>.
+              Voici un exemple :</p>
+
+              <div class="exemple">
+                <ul>
+                  <li>Une chose</li>
+                  <li>Puis une autre</li>
+                </ul>
+                <ol>
+                  <li>Le premier point</li>
+                  <li>
+                    Le second point
+                    <ul>
+                      <li>Un sous-point du second point</li>
+                      <li>Encore autre chose</li>
+                    </ul>
+                  </li>
+                </ol>
+                <details>
+                  <summary>Code HTML</summary>
+                  <pre>&lt;ul&gt;
+  &lt;li&gt;Une chose&lt;/li&gt;
+  &lt;li&gt;Puis une autre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;Le premier point&lt;/li&gt;
+  &lt;li&gt;
+    Le second point
+    &lt;ul&gt;
+      &lt;li&gt;Un sous-point du second point&lt;/li&gt;
+      &lt;li&gt;Encore autre chose&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</pre>
+                </details>
+              </div>
+
+              <p>On peut organiser du texte dans des tableaux à deux dimensions
+              à l'aide de l'élément <code>table</code>. Les rangées de la table
+              sont délimitées par l'élément <code>tr</code> (<i>table row</i>)
+              et les cellules par <code>td</code> (<i>table data</i>).
+              Voici un exemple :</p>
+
+              <div class="exemple">
+                <table>
+                  <tr>
+                    <td>1</td> <td>2</td> <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td rowspan="2" colspan="2">a b c d e f g h i j k l m n o
+                      p q r s t u v w x y z</td>
+                  </tr>
+                  <tr><td>B</td></tr>
+                </table>
+                <details>
+                  <summary>Code HTML</summary>
+                  <pre>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;A&lt;/td&gt;
+    &lt;td rowspan="2" colspan="2"&gt;a b c d e f g h i j k l m n o p q r s t u v w x y z&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;B&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</pre>
+                </details>
+              </div>
+
+              <p>L'élément <code>a</code> permet de mettre en &oelig;uvre des
+              liens hypertextes, avec la syntaxe <code>&lt;a
+                href="lien"&gt;texte du lien&lt;/a&gt;</code>.<p>
+
+              <p>Des images peuvent être insérée à l'aide la balise vide
+              <code>&lt;img&gt;</code>, avec la syntaxe <code>&lt;img
+                src="emplacement de l'image" alt="description
+                rapide"&gt;</code>.
+              D'autres balises du même type existent pour insérer des fichiers
+              multimédia.</p>
+
+              <p>Enfin, certaines balises n'ont <i>a priori</i> pas d'effet
+              mais permettent d'indiquer le rôle de l'élément HTML :
+              <code>main</code> pour le contenu principal, <code>header</code>
+              pour l'en-tête de la page, <code>footer</code> pour son pied de
+              page, <code>article</code>, <code>section</code>,
+              <code>div</code>, <code>span</code>, etc.
+              Ces balises peuvent ensuite servir à mettre en page le contenu
+              selon son rôle à l'aide du CSS.
+              Pour mettre en avant un petit morceau de texte, on pourra
+              utiliser les balises <code>em</code>, <code>strong</code>,
+              <code>mark</code> ou encore <code>code</code>.</p>
+            </section>
+
+            <section id="balises-neutres-classes-ids">
+              <h5>Balises neutres, classes et identifiants</h5>
+
+              <p>Il existe en HTML deux balises neutres (qui n'ont aucun effet
+              ni aucune signification) : la balise de structure
+              <code>div</code> (qui se comporte comme <code>p</code>) et la
+              balise de texte <code>span</code>.
+              On verra l'intérêt de ces balises dans la section suivante.</p>
+
+              <p>Pour chaque balise, il est possible d'ajouter deux attributs
+              <code>id</code> et <code>class</code>.
+              L'attribut <code>id</code> doit être unique dans tous les
+              document.
+              L'intérêt de ces attributs sera explicité dans la section
+              suivante.</p>
+            </section>
+          </section>
+        </section>
+
+        <section id="css">
+          <h3>Les bases du CSS</h3>
+          <p>Les
+          <a href="https://fr.wikipedia.org/wiki/Cascading_Style_Sheets">feuilles
+            de style en cascade</a> ou
+          <abbr title="Cascading Style Sheets">CSS</abbr> sont un moyen de
+          décrire l'apparence d'une page web.
+          Elles répondent à la question &laquo; Qu'est-ce que montre la
+          page ? &raquo;.</p>
+
+          <p>Les CSS permettent de définir les propriétés graphiques des
+          éléments HTML constituant une page web.</p>
+
+          <div class="exemple">
+            <p style="text-align:right;">
+            On écrit un <span style="border:2pt solid black;"> paragraphe
+            </span>de  texte, mais cette fois on
+            <span style="color:#1FE6B1;"> modifie </span> le
+            <span style="color:red; background:yellow">style</span> graphique
+            des <span style="border:2pt solid black">éléments</span>.</p>
+            <details>
+              <summary>Code HTML + CSS</summary>
+              <pre>&lt;p style="text-align:right;"&gt;
+On écrit un
+&lt;span style="border:2pt solid black;"&gt; paragraphe &lt;/span&gt;de
+texte, mais cette fois on
+&lt;span style="color:#1FE6B1;"&gt; modifie &lt;/span&gt; le
+&lt;span style="color:red; background:yellow"&gt;style&lt;/span&gt;
+graphique des
+&lt;span style="border:2pt solid black"&gt;éléments&lt;/span&gt;.&lt;/p&gt;</pre>
+            </details>
+          </div>
+
+          <p>On remarque que l'attribut <code>style</code> permet de définir
+          les <strong>propriétés CSS</strong> de l'élément HTML.
+          On voit aussi l'intérêt de <code>span</code>, qui permet de spécifier
+          le contenu dont on souhaite modifier le style.</p>
+
+          <aside>
+            <p>Il est à noter que la plupart des navigateurs appliquent des
+            mises en page par défaut à certains éléments.
+            Ainsi, un élément <code>b</code> sera généralement affiché en gras,
+            <code>i</code> en italique et <code>code</code> avec une police à
+            chasse fixe.
+            Il faut bien garder à l'esprit que cette mise en page n'est qu'un
+            choix des navigateurs : certains navigateurs peuvent décider de
+            faire autrement (le standard n'impose rien à ce sujet) et les CSS
+            peuvent changer la mise en page de ces éléments.</p>
+
+            <p>Il ne faut donc pas utiliser ces balises pour la forme qu'elles
+            font avoir au texte, mais pour leur signification (respectivement
+            un élément portant à l'attention, termes techniques ou en langue
+            étrangère, et morceau de code informatique).
+            Le HTML indique ce que dit la page, le CSS indique ce que montre la
+            page.</p>
+          </aside>
+
+          <section id="ecrire-css">
+            <h4>Écrire du CSS</h4>
+
+            <p>La méthode précédente fonctionne mais est peu pratique.
+            D'une part, le code HTML est peu lisible car les aspects graphiques
+            se mélangent à la sémantique de la page.
+            Pour éviter cela, on peut mettre à part le code CSS, comme c'est le
+            cas par exemple dans le fichier
+            <a href="css-ex2.html"><code>css-ex2.html</code></a>
+            </p>
+
+            <p>Cette méthode utilise les <strong>sélecteurs CSS</strong> afin
+            de définir le style graphique.</p>
+
+            <ul>
+              <li><code>p { text-align: right; }</code> indique que tous les
+                éléments de type <code>p</code> seront alignés à droite.</li>
+              <li><code>.bord { border: 2pt solid black; }</code> indique que
+                tous les éléments dont la classe (définie par l'attribut
+                <code>class</code>) est <code>bord</code> seront encadré d'une
+                bordure noire continue de deux points d'épaisseur.</li>
+              <li><code>#mot-modifie { color: #1FE6B1; }</code> indique que
+                l'élément dont l'<code>id</code> est <code>mot-modifie</code>
+                sera colorié en
+                <code style="background:#1FE6B1;">#1FE6B1</code>, soit une
+                espèce de vert canard.</li>
+            </ul>
+
+            <p>En pratique, dès que le CSS devient suffisament important, il
+            est courant de l'écrire dans un fichier à part, par exemple
+            <a href="css-ex2.css"><code>css-ex2.css</code></a>.
+            Pour indiquer dans le document HTML quel style utiliser, on
+            ajoutera dans l'en-tête du fichier HTML la ligne <code>&lt;link
+              href="lien-vers-le-fichier.css" rel="stylesheet"
+              type="text/css"&gt;</code>.
+            Un tel exemple d'organisation est disponible dans le fichier
+            <a href="css-ex2.html"><code>css-ex2.html</code></a>.
+
+            <p>Comme le HTML, le langage CSS est standardisé par le W3C.
+            On s'assurera donc de la conformité des feuilles de style à l'aide
+            du
+            <a href="https://jigsaw.w3.org/css-validator/#validate-by-input">
+              validateur de CSS du W3C
+            </a>.</p>
+          </section>
+
+          <section id="proprietes-css">
+            <h4>Quelques propriétés du CSS</h4>
+
+            <section id="box-model">
+              <h5>Modèle de boîte</h5>
+
+              <p>Chaque élément HTML possède une boîte rectangulaire qui
+              délimite son contenu.
+              Lorsque le navigateur dessine un élément, il définit une boîte
+              rectangulaire possèdant plusieurs zones distinctes.</p>
+
+              <ol>
+                <li>Le contenu (<i>content</i>), zone interne dans laquelle
+                  l'élément est dessiné.</li>
+                <li>L'ajustement (<i>padding</i>), zone intermédiaire entre le
+                  contenu et la bordure.</li>
+                <li>La bordure (<i>border</i>), qu'il est possible de rendre
+                  visible à l'aide du CSS.</li>
+                <li>La marge (<i>margin</i>), qui est la zone entre la bordure
+                  et les autre éléments.</li>
+              </ol>
+
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg"
+                     alt="illustration du modèle de boîtes">
+                <figcaption>Le modèle de boîte (©2018 Charles Calvert,
+                  <a href=https://creativecommons.org/licenses/by-sa/4.0/deed.en>CC-BY-SA</a>
+                  )</figcaption>
+              </figure>
+
+              <p>La taille des trois zones externes peut être modifié par les
+              propriétés CSS du même nom : <code>padding</code>,
+              <code>border</code> et <code>margin</code>.</p>
+
+              <p>Nous avons vu qu'il existe de types de balises en HTML : les
+              balises de structure (<code>p</code>, <code>ul</code>, etc.) qui
+              créent une boîte et force un retour à la ligne, et les balises
+              textuelles (<code>a</code>, <code>strong</code>, etc.) qui
+              placent leur contenu dans le flot du texte.
+              Ce comportement est en fait dirigé par la propriété CSS
+              <code>display</code>, qui peut prendre la valeur
+              <code>inline</code> (boîte dans le corps du texte),
+              <code>block</code> (boîte imposant un retour à la ligne) ou
+              <code>none</code> (boîte masquée, invisible).
+              </p>
+
+              <p style="display:none;">Un exemple de boîte invisible.</p>
+            </section>
+
+            <section id="longueurs-couleurs">
+              <h5>Longueurs et couleurs</h5>
+
+              <p>De nombreuses propriétés CSS indiquent des longueurs (taille
+              d'une bordure, d'un ajustement, d'une police).
+              Leur valeur est toujours un nombre suivi d'une unité, les unités
+              acceptées étant le pixel (<code>px</code>) ou le point
+              (<code>pt</code>, qui est la même unité que celle utilisée pour
+              déterminer la taille de la police dans de nombreux logiciels).
+              On peut aussi donner la taille de manière relative par rapport à
+              la taille de l'élément contenant, on indique pour cela un
+              pourcentage (<code>%</code>).</p>
+
+              <p>Pour les couleurs, cela fonctionne de manière similaire au
+              module turtle de Python.
+              On utilise soit le nom en anglais (<code>red</code>,
+              <code>gray</code>, <code>blue</code>, <code>LightGreen</code>,
+              etc.), soit la notation hexadécimale avec <code>#rrvvbb</code> où
+              <code>rr</code>, <code>vv</code> et <code>bb</code> représentent
+              des valeurs sur deux chiffres entre <code>00</code> et
+              <code>ff</code> (soit entre 0 et 255 en base 10).
+              Ainsi, le noir s'écrit
+              <code style="background:#000000; color:#ffffff;">#000000</code>
+              et le magenta <code style="background:#ff00ff;">#ff00ff</code>.
+              </p>
+
+              <p>Les propritétés CSS les plus communes sont données dans ce
+              tableau :</p>
+
+              <table>
+                <thead>
+                  <tr><th>propriété</th><th>valeur</th><th>description</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>display</code></td>
+                    <td><code>none</code>, <code>block</code> ou
+                      <code>inline</code></td>
+                    <td>mode d'affichage de la boîte</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>background</code></td>
+                    <td>couleur</td>
+                    <td>couleur de fond de la boîte</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>color</code></td>
+                    <td>couleur</td>
+                    <td>couleur du texte</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>border</code></td>
+                    <td>taille motif couleur ou <code>none</code></td>
+                    <td>si <code>none</code> la bordure est masquée, sinon on
+                      donne la taille, le motif (<code>solid</code>,
+                      <code>dotted</code> ou <code>dashed</code>) et la
+                      couleur, séparés par des expaces.</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>margin</code></td>
+                    <td>longueur</td>
+                    <td>taille des marges</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>padding</code></td>
+                    <td>longueur</td>
+                    <td>taille des ajustements</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>text-decoration</code></td>
+                    <td><code>none</code>, <code>underline</code>,
+                      <code>overline</code> ou <code>line-tdrough</code></td>
+                    <td>décoration du texte</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>text-align</code></td>
+                    <td><code>left</code>, <code>right</code>,
+                      <code>center</code> ou <code>justified</code></td>
+                    <td>justification du texte</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>font-family</code></td>
+                    <td><code>fixed</code>, <code>serif</code> ou
+                      <code>sans-serif</code></td>
+                    <td>type de police</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>font-weight</code></td>
+                    <td><code>normal</code>, <code>light</code>,
+                      <code>bold</code> ou <code>bolder</code></td>
+                    <td>graisse de la police</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>font-style</code></td>
+                    <td><code>normal</code> ou <code>italic</code></td>
+                    <td>style de la police</td>
+                  </tr>
+
+                  <tr>
+                    <td><code>font-size</code></td>
+                    <td>longueur, ou <code>xx-small</code>,
+                      <code>x-small</code>, <code>small</code>,
+                      <code>normal</code>, <code>large</code>,
+                      <code>x-large</code>, ou <code>xx-large</code></td>
+                    <td>taille de la police</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </section>
+
+          <section id="selecteurs">
+            <h4>Sélecteurs CSS</h4>
+
+            <p>Le langage CSS définit une notion de sélecteur, c'est à dire un
+            moyen de déterminer à quels éléments s'applique une propriété.
+            La syntaxe est très complexe, nous n'en présentons qu'un extrait
+            ici.</p>
+
+            <p>Les règles CSS ont la forme suivante :</p>
+            <pre>é1 é2 ... én {
+  prop1: val1;
+  prop2: val2;
+  ...
+  propk: valk;
+}</pre>
+
+            <p>La partie <code>é1 é2 ... én</code> est le sélecteur CSS.
+            Il est constitué d'un certain nombre d'étapes.
+            L'étape <code>é1</code> sélectionne tous les éléments qui vérifient
+            la condition énoncée par <code>é1</code>.
+            L'étape <code>é2</code> sélectionne tous les éléments qui  vérifient
+            la condition énoncée par <code>é2</code> et qui sont
+            <b>contenus</b> dans des balises renvoyés par <code>é1</code>.
+            On répète ce processus jusqu'à arriver au dernier pas.<p>
+
+            <div class="exemple">
+              <p>Considèrons la règle CSS ci dessous :</p>
+              <pre>div li a { font-weight: bold; }</pre>
+              <p>Cette règle s'applique à tous les liens (<code>a</code>) qui
+              sont à l'intérieur d'un élément (<code>li</code>) eux-mêmes à
+              l'intérieur d'une élément (<code>div</code>).</p>
+            </div>
+
+            <p>Un étape peut prendre la forme suivante :</p>
+            <ul>
+              <li>un nom de balise, comme <code>a</code>, <code>h2</code> ou
+                <code>main</code>.
+                L'étapesélectionne alors tous les éléments du type
+                concerné.</li>
+              <li>un nom de classe, préfixé par un point, comme
+                <code>.bord</code> ou <code>.exemple</code>.
+                L'étape sélectionne alors tous les éléments de la classe
+                concernée.</li>
+              <li>un identifiant, préfixé par un croisillon, comme
+                <code>#mot-modifie</code>, <code>#mot-style</code> ou
+                <code>#css</code>.
+                L'étape sélectionne l'unique élément dont l'identifiant est
+                donné, si cet élément existe (rien n'est sélectionné
+                sinon).</li>
+              <li>une combinaison d'une balise et d'un nom de classe, par
+                exemple <code>div.exemple</code>.
+                L'étape sélectionne alors tous les élément du type et de la
+                classe concernés.</li>
+              <li>un combinaison d'une balise et d'un identifiant, par exemple
+                <code>span#mot-modifie</code>.
+                L'étape renvoie alors l'unique élément du type concerné dont
+                l'identifiant est donné.</li>
+              <li>le symbole <code>*</code>.
+                L'étape sélectionne alors toutes les balises.</li>
+            </ul>
+
+            <p>Attention à ne pas confondre <code>div.menu</code> et <code>div
+              .menu</code> !</p>
+          </section>
+
+          <section id="conflit">
+            <h4>Résolution de conflits</h4>
+
+            <p>Le dernier aspects du CSS est sa méthode de résolution des
+            conflits.
+            Elle répond à la question &laquo; Que faire quand plusieurs règles
+            s'appliquent au même élément ? &raquo;.<p>
+
+            <div class="exemple">
+              <p>Considérons par exemple le fichier
+              <a href="conflit.html"><code>conflit.html</code></a>.
+              Quelle sera l'apparence du texte ?
+            </div>
+
+            <p>En cas de conflit entre différentes sources, c'est la source lue
+            le plus récemment qui l'emporte.</p>
+
+            <div class="exemple">
+              <p>Considérons maintenant le fichier
+              <a href="conflit2.html"><code>conflit2.html</code></a>.
+              Quelle sera l'apparence du texte ?
+            </div>
+
+            <p>En cas de conflit au sein d'une même source, la règle est la
+            suivante.
+            Pour chaque règle en conflit, on calcule le nombre
+            <span class="math">i</span> d'identifiants qui apparaissent dans la
+            règle, le nombre <span class="math">c</span> de classes qui
+            apparaissent dans la règle et le nombre <span class="math">b</span>
+            de balises qui apparaissent dans la règle (<code>*</code> ne compte
+            comme aucun des trois).
+            Ensuite, compare les sélecteurs selon le triplet
+            <span class="math">(i, c, b)</span> : si un selecteur a plus
+            d'identifants que les autres, alors il est choisi.
+            Sinon, on prends les sélecteurs <i>ex-aequo</i> et on les compare
+            selon <span class="math">c</span>.
+            Si on a encore des égalités, on compare enfin selon le nombre de
+            balises.
+            Enfin, s'il y a encore égalité, c'est la dernière règle (la plus
+            basse dans le fichier) qui est choisie.</p>
+
+            <p>Dans l'exemple ci-dessus, les triplets sont respectivement
+            <span class="math">(1, 0, 0)</span>,
+            <span class="math">(0, 0, 2)</span> et
+            <span class="math">(0, 1, 1)</span>.
+            C'est donc la première règle qui s'applique.
+          </section>
+        </section>
+      </section>
+      <section id="exercices">
+        <h2>Exercices</h2>
+
+        <div class="exercice">
+          <p>Parmi les fragments de documents ci dessous, lesquels sont
+          valides ?
+          Pourquoi ?</p>
+
+          <ol>
+            <li><code>&lt;i&gt;&lt;u&gt;du texte&lt;/u&gt;&lt;/i&gt;</code></li>
+            <li><code>&lt;p&gt;&lt;u&gt;du texte&lt;/i&gt;&lt;/p&gt;</code></li>
+            <li><pre>&lt;b class="a"
+   class="b"&gt;
+  texte important&lt;/b&gt;</pre></li>
+            <li><pre>&lt;head&gt;
+  &lt;b&gt;Bonjour&lt;/b&gt;
+&lt;/head&gt;</pre></li>
+
+            <li><code>&lt;p /&gt;</code></li>
+            <li><pre>&lt;h1 id="t1"&gt;Titre&lt;/h1&gt;
+&lt;h1 id="t1"&gt;Titre&lt;/h1&gt;</pre></li>
+          </ol>
+        </div>
+
+        <div class="exercice">
+          <p>On considère le document HTML
+          <a href="exo-css.html"><code>exo-css.html</code></a>.
+          Pour chacun des selecteurs CSS ci-dessous, indiquer les identifiants
+          des éléments sélectionnées.</p>
+          <ol>
+            <li><code>div a</code></li>
+            <li><code>.impair * *</code></li>
+            <li><code>#i3 #i8</code></li>
+            <li><code>#i14 *</code></li>
+            <li><code>li b</code></li>
+            <li><code>body * * * *</code></li>
+            <li><code>li .pair</code></li>
+            <li><code>li.pair a</code></li>
+          </ol>
+        </div>
+
+        <div class="exercice">
+          <p>Écrire un programme qui affiche le code HTML d'une page web qui
+          affiche les tables de mutliplication de 1 jusqu'à 10.
+          Chaque table est précédée d'un titre de niveau 1, suivi de la table
+          sous la forme d'une liste à puces.</p>
+
+          <p>Par exemple, le fragment de code correspondant à la table de 1
+          est :</p>
+
+          <pre>&lt;h1&gt;Table de 1&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 * 1 = 1&lt;/li&gt;
+  &lt;li&gt;1 * 2 = 2&lt;/li&gt;
+  ...
+&lt;/ul&gt;</pre>
+
+          <p>On vérifiera que le code HTML produit est correct à l'aide du
+          <a href="https://validator.w3.org/#validate-by-input">validateur du
+            W3C</a>.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
